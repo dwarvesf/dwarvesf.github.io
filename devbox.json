@@ -20,7 +20,7 @@
       ". $VENV_DIR/bin/activate",
       "pip install -r requirements.txt",
       "export LD_LIBRARY_PATH=./.devbox/nix/profile/default/lib",
-      "pre-commit install",
+      "pre-commit uninstall",
       "make fetch",
       "make clear-build"
     ],

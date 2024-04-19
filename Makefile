@@ -17,6 +17,7 @@ clear-build:
 	@rm -rf public
 	@git checkout -- public
 	@rm -rf content
+	@rm .git/hooks/pre-commit 2> /dev/null || true
 
 run:
 	@python scripts/batch_image_processor.py vault
