@@ -13,11 +13,14 @@
     "pre-commit":            "3.6.1",
     "duckdb":                "0.10.1",
     "ffmpeg":                "6.1.1",
-    "stdenv.cc.cc.lib":      ""
+    "stdenv.cc.cc.lib":      "",
+    "glibc": {
+      "version":   "2.39-5",
+      "platforms": ["x86_64-linux"]
+    }
   },
   "shell": {
     "init_hook": [
-      "DEVBOX_DEBUG=1",
       ". $VENV_DIR/bin/activate",
       "pip install -r requirements.txt",
       "export LD_LIBRARY_PATH=./.devbox/nix/profile/default/lib",
