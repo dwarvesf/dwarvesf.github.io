@@ -21,6 +21,86 @@
         }
       }
     },
+    "duckdb@0.10.1": {
+      "last_modified": "2024-04-01T22:53:36-04:00",
+      "resolved": "github:NixOS/nixpkgs/080a4a27f206d07724b88da096e27ef63401a504#duckdb",
+      "source": "devbox-search",
+      "version": "0.10.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gcbk7l7saa0k6mii5xmxaf7m9hy11dmn-duckdb-0.10.1",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/pm969dflzxd3sx7bwc4agabswsgf6444-duckdb-0.10.1-dev"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/6gdskrl07dbynqd8vg160nip4xz79811-duckdb-0.10.1-lib"
+            }
+          ],
+          "store_path": "/nix/store/gcbk7l7saa0k6mii5xmxaf7m9hy11dmn-duckdb-0.10.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x83yvf4n8bcb30igxx303hhil05g46fd-duckdb-0.10.1",
+              "default": true
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/cyadqjlm0lj0b0ngkdrf7a27qa04w4xv-duckdb-0.10.1-lib"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/ayvs65x2pkwlz4v00wbjvk6yshxfg1vl-duckdb-0.10.1-dev"
+            }
+          ],
+          "store_path": "/nix/store/x83yvf4n8bcb30igxx303hhil05g46fd-duckdb-0.10.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p112aqjb8j500z75lxmb4ssp61is8cg5-duckdb-0.10.1",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/n3md06abbym5ck2b1zg2bymr66fszj0x-duckdb-0.10.1-dev"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/67q4li7m740ff7nsspin348c4xdx6yp5-duckdb-0.10.1-lib"
+            }
+          ],
+          "store_path": "/nix/store/p112aqjb8j500z75lxmb4ssp61is8cg5-duckdb-0.10.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g97758w29bryq4327fcah1kbfrad81c5-duckdb-0.10.1",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/0pqz70rv0gz1hrb0mn9par7dlxck1drw-duckdb-0.10.1-dev"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/wnm3n8rhgq48kjd07db29w8r71v8yhi2-duckdb-0.10.1-lib"
+            }
+          ],
+          "store_path": "/nix/store/g97758w29bryq4327fcah1kbfrad81c5-duckdb-0.10.1"
+        }
+      }
+    },
     "ffmpeg@6.1.1": {
       "last_modified": "2024-03-29T03:06:03Z",
       "resolved": "github:NixOS/nixpkgs/9b09bde6e3fc9493b6a8b2a5702ac87c66505c64#ffmpeg",

@@ -4,10 +4,11 @@ on:
   push:
     branches:
       - main
+      - build-test
 
 jobs:
   publish_job:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     name: Publish Obsidian notes to Github pages
     steps:
       - name: Checkout contents repo
